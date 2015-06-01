@@ -228,9 +228,6 @@ var tmpArray = explodeArray(response,';');
 
 }
       
- 
-    
-// from http://www.webmasterworld.com/forum91/3262.htm            
 function explodeArray(item,delimiter) {
 tempArray=new Array(1);
 var Count=0;
