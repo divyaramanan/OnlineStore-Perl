@@ -1,5 +1,5 @@
 /*  A shopping cart in javascript that uses cookies
-        CS645 Spring 2014
+      
 
     Method Prototypes:
     // creates a new shopping cart using cookies.
