@@ -7,8 +7,7 @@
 #   This script encrypts the password using SHA-2 256.  You MUST use
 #   the same salt in your login authentication script.  Use your own
 #   value for the salt, not this one.
-#   CS645, Spring 2012
-#   Alan Riggins
+
 
 use Crypt::Password;
 
