@@ -2,8 +2,6 @@
 #	Sample perl cgi script.  This script prints a list of the 
 #	products in the opatija proj3.products table.
 #
-#	CS545 Fall 2014
-#	Code by Alan Riggins
 #
    
 use DBI;
