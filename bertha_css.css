@@ -1,0 +1,781 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 24, 2014, 9:56:53 AM
+    Author     : Divya
+*/
+
+html,body{
+   margin:0;
+   border:0;
+   background-color:#D8CCC0;
+}
+li a{
+    text-decoration:none;
+    color: inherit;
+}
+a{
+text-decoration:none;
+}
+
+li a:hover{
+    color: #006666;
+    opacity:0.6;
+}
+
+#indexbody{
+    height:100%;
+    background:url("cinna.jpg") no-repeat;
+    background-size:cover;
+    
+  
+}
+#container{
+    background-color:rgba(255,255,255,0.0);
+    margin:0 auto 0 auto;
+    width:100%;
+}
+#shopname{
+  text-align:left;
+  background-color:rgba(255,255,255,1);
+  margin:0px auto 0 30px;
+  font-family:"kg10";
+  color: #006666;
+  height:100px;
+}
+
+#shopname #logo{
+    float:left;
+    margin-left:30px;
+    margin-top:20px;
+}
+#cartimg{
+    position:absolute;
+    right:250px;
+    top:100px;
+	
+}
+.csize{
+position:absolute;
+    right:240px;
+    top:90px;
+}
+#shopname h3{
+   margin-left:100px;
+   padding-top:20px;
+   font-size:20px;
+   letter-spacing:0.1em;
+   font-weight:900;
+   width:300px;
+}
+#shopname span{
+    margin-left:200px;
+    margin-top:-10px;
+}
+
+#headinglist{
+     text-align:center;
+     color:#CC0000;
+     background-color:rgba(255,255,255,1);
+     margin:20px auto 0 30px;
+     padding:10px 0 10px 0;
+     font-family:"aqua";
+     font-size:12px;
+}
+
+
+
+#headinglist li{
+    display:inline;
+    font-size:20px;
+    padding-right:25px;
+   
+}
+
+
+@font-face{
+   font-family:"glam";
+   src:url("Glametrix.otf");
+}
+
+@font-face{
+   font-family:"kg10";
+   src:url("kg10.ttf");
+}
+@font-face{
+   font-family:"candy";
+   src:url("Cutie Patootie.ttf");
+}
+@font-face{
+   font-family:"candies";
+   src:url("Candies.ttf");
+}
+@font-face{
+   font-family:"kg";
+   src:url("KGStrawberryLimeade.ttf");
+}
+@font-face{
+   font-family:"aqua";
+   src:url("aqua.ttf");
+}
+.clear{
+    clear:both;
+}
+
+#photosfr{
+    
+    margin:50px auto auto 250px;
+    background-color:rgba(255,255,255,0.9);
+    width:900px;
+	border:2px solid white;
+	
+}
+
+#exclusives{
+margin-left:225px;
+width:1000px;
+}
+#photosfr img{
+    width:900px;
+    height:375px;
+	border:2px solid white;
+}
+
+#exclusives img{
+    margin:20px auto 0 30px;
+    width:265px;
+    height:300px;
+	border:2px solid white;
+}
+#copyright{
+    margin:20px auto 0 0;
+    height:30px;
+    color:grey;
+    background-color:white;
+    text-align:center;
+    
+}
+#copyright p{
+    padding-top:20px;
+    font-family:"aqua";
+    font-size:15px;
+}
+#commonhead{
+     margin-top:30px;
+     text-align:center;
+}
+
+#commonhead #logo{
+  float:left;
+  margin-top:30px;
+  margin-left:35%;
+}
+
+#commonhead h3{
+   margin-left:33%;
+    color: #006666;
+   font-family:"kg10";
+   padding-top:45px;
+   font-size:25px;
+   letter-spacing:0.1em;
+   font-weight:900;
+   width:400px;
+}
+#container #commonhead h3{
+color:#F0F6F6;
+}
+#container #commonlist{
+color:#FFFFCC;
+}
+#commonlist{
+     text-align:center;
+     color:crimson;
+     margin:20px auto 0 30px;
+     padding:10px 0 10px 0;
+     font-family:"glam";
+     font-size:30px;
+     
+     
+}
+
+#commonlist li{
+    display:inline;
+    margin:45px;
+   
+}
+
+.decor{
+background-color:#CC0000;
+color:white;
+padding:10px;
+border:1px solid white;
+}
+
+#container #commonlist :hover{
+color:#FFE6CC;
+}
+#shop{
+    margin-left:100px;
+    padding-top:50px;
+}
+#bake{
+    padding-top:30px;
+    margin-left:250px;
+}
+#bw{
+    padding-top:30px;
+    margin-left:450px;
+}
+
+.bigfonts{
+    width:60%;
+    padding-top:50px;
+    padding-bottom:20px;
+    margin-left:300px;
+    font-size:40px;
+    font-family:"kg10";
+    color:chocolate;
+    
+}
+
+.para p{
+    padding:10px;
+    font-size:28px;
+    margin-left:280px;
+    font-family:"candies";
+    letter-spacing:0.05em;
+    width:60%;
+    line-height: 1.5;
+    color:#666699;
+}
+
+#moveright{
+    padding-left: 250px;
+}
+
+#contact{
+    padding-bottom:100px;
+}
+
+#contact p{
+    font-size:28px;
+    padding-top:50px;
+    font-family:"candies";
+    letter-spacing:0.05em;
+    line-height: 1.5;
+    color:#666699;
+    margin-left:20%;
+    width:60%;
+}
+#contact div h3{
+    color:crimson;
+}
+#contact div{
+    font-size:28px;
+    padding-top:50px;
+    font-family:"candies";
+    letter-spacing:0.05em;
+    line-height: 1.5;
+    color:#666699;
+     
+}
+#addr{
+    float:left;
+    margin-left:250px;
+    width:250px;
+}
+
+
+
+#ph,#fax{
+    margin-left:650px; 
+    width:250px;
+}
+
+#hours{
+    float:left;
+    margin-left:250px;
+    width:300px;
+}
+
+#mail{
+    float:right;
+    margin-right:150px;
+    margin-top:150px;
+    width:250px;
+}
+
+
+#category ul{
+   float:left;
+   list-style-type: none;
+   font-family:"glam";
+    font-size:25px;
+    margin-left:100px;
+    margin-top:50px;
+	
+}
+#category ul li{
+    
+    text-align:center;
+    margin:10px;
+    margin-bottom:30px;
+    padding:10px;
+    border:1px solid #660033;
+    background-color:#660033;
+    color:white;
+    width:200px;
+}
+
+#category ul li:hover{
+    background-color:#D1B2C2;
+    color:#660033;
+}
+
+#content{
+margin-top:50px;
+}
+.prod1,.prod2,.prod3{
+
+text-align:center;
+border:1px solid #660033;
+font-family:"glam";
+letter spacing:0.01em;
+font-size:20px;
+width:20%;
+margin-bottom:50px;
+padding-top:10px;
+height:460px;
+background-color:#52527A;
+}
+.prod1{
+float:left;
+position:absolute;
+left:400px;
+}
+.prod2{
+float:right;
+margin-right:40px;
+
+}
+.prod3{
+margin-left:720px;
+}
+
+.price{
+color:#FFFF99;
+}
+
+.desc{
+width:170px;
+height:70px;
+padding-left:50px;
+color:white;
+}
+
+.name{
+font-size:24px;
+width:200px;
+height:20px;
+color:white;
+padding-left:30px;
+}
+
+.name:hover{
+color:#FFFF99;
+}
+
+#productfind{
+margin-top:100px;
+margin-left:900px;
+width:300px;
+}
+
+#productfind  input{
+float:left;
+padding:10px;
+border:1px solid white;
+border-radius:25px;
+background-color:#787C80;
+color:white; 
+text-align:center;
+font-family:"glam";
+font-size:20px;
+}
+#productfind img{
+position:absolute;
+top:380px;
+margin-left:10px;
+}
+
+.noresult{
+text-align:center;
+font-family:"glam";
+font-size:28px;
+color:red;
+margin:100px;
+}
+.hidden{
+visibility:hidden;
+}
+.buttons,#startshop,.rbuttons{
+    padding:10px 20px 10px 20px;
+    border:1px solid #FFFF99;
+    border-radius:5px;
+    font-family:"glam";
+	font-size:20px;
+	
+}
+.rbuttons{
+padding:2px;
+background-color:#FFFFE0;
+margin-top:20px;
+border-color:blue;
+}
+
+#startshop{
+font-family:"candies";
+font-size:25px;
+margin:20px auto 50px 550px;
+background-color:crimson;
+color:white;
+}
+
+#shopb,#out,#ord,#bk{
+border:1px solid #FFFF99;
+border-radius:5px;
+margin-left:400px;
+padding:20px;
+margin-bottom:50px;
+display:inline;
+background-color:crimson;
+color:white;
+font-family:"candies";
+font-size:23px;
+}
+
+#out,#ord{
+margin-left:50px;
+}
+#bk{
+margin-top:100px;
+margin-left:200px;
+}
+
+
+.changebutton{
+padding:10px 20px 10px 20px;
+border:1px solid #FFFF99;
+ border-radius:5px;
+ font-family:"glam";
+font-size:20px;
+background-color:#006666;
+color:white;
+}
+
+#emptycart h4{
+    text-align:center;
+    font-size:28px;
+    padding-top:50px;
+    font-family:"candies";
+    letter-spacing:0.05em;
+    line-height: 1.5;
+    color:#666699;
+   
+}
+
+#emptycart p{
+    font-size:25px;
+    padding-top:10px;
+    font-family:"candies";
+    letter-spacing:0.05em;
+    line-height: 1.5;
+    color:green;
+	font-weight:600;
+    margin-left:20%;
+	width:60%;
+}
+#cart{
+margin-top:100px;
+}
+#cart table{
+margin-bottom:50px;
+margin-left:250px;
+padding:30px;
+border:1px solid #333300;
+width:60%;
+font-family:candies;
+background-color:#E7E7EF;
+}
+#cart table tr{
+padding:30px;
+font-size:20px;
+font-family:"glam";
+}
+#cart img,#confdiv img{
+border:1px solid #A8AEB2;
+}
+#confdiv table{
+margin-top:60px;
+margin-left:200px;
+}
+.info .pname{
+font-size:28px;
+color:blue;
+padding-bottom:50px;
+}
+.info {
+padding-left:0;
+}
+.retail{
+font-size:28px;
+color:blue;
+}
+
+#calc{
+border:1px solid #333300;
+background-color:#E7E7EF;
+margin:50px 0 100px 750px;
+width:20%;
+font-size:23px;
+color:blue;
+font-family:"glam";
+padding:20px;
+text-align:right;
+line-height:1.5;
+}
+#calc span,#finalcal span{
+color:#993333;
+font-size:26px;
+}
+#finalcal{
+margin:50px 0 100px 600px;
+font-size:23px;
+color:blue;
+font-family:"glam";
+padding:20px;
+text-align:right;
+line-height:1.5;
+width:30%;
+}
+#useinfo,.proddet{
+background-color:#D8CCC0;
+border:5px solid #472400;
+border-collapse:collapse;
+font-family:"kg10";
+font-size:15px;
+border-left:0;
+border-right:0;
+width:70%;
+margin:70px 70px auto 100px;
+padding:20px;
+}
+
+#useinfo th,.proddet th{
+background-color:#472400;
+border:1px solid #472400;
+color:white;
+padding:5px;
+}
+
+#useinfo tr td,.proddet tr td{
+padding:20px;
+font-size:13px;
+}
+
+hr{
+width:50px;
+color:blue;
+margin-left:85%;
+border:3px solid blue;
+}
+#cart a{
+text-decoration:none;
+}
+.csize{
+color:white;
+border:1px solid white;
+font-size:20px;
+background-color:#333300;
+border-radius:25px;
+padding:0 5px 0 5px;
+}
+#eid,#vmsg{
+position:absolute;
+top:320px;
+left:400px;
+color:red;
+font-family:"glam";
+font-size:20px;
+}
+#vmsg{
+color:  #B20000;
+font-size:25px;
+}
+#table1,#table2,#table3{
+
+padding:20px;
+border:1px solid #333300;
+width:70%;
+font-family:"kg10";
+background-color:#E7E7EF;
+font-size:15px;
+border-radius:25px;
+line-height:3;
+color:#333300;
+}
+#table1 tr,#table2 tr{
+padding:10px 0 10px 0;
+text-align:left;
+}
+.right{
+text-align:right;
+padding-right:10px;
+}
+#table1 input,#table2 input,#table3 input{
+border:1px solid #333300;
+border-radius:5px;
+}
+#cdetails{
+float:left;
+width:40%;
+padding-top:150px;
+margin-left:200px;
+}
+
+#sdetails{
+width:40%;
+margin-left:600px;
+padding-top:150px;
+}
+#carddetails{
+width:70%;
+margin-left:300px;
+padding-top:100px;
+padding-bottom:100px;
+}
+#table1 tr th,#table2 tr th,#table3 tr th{
+text-align:center;
+margin-left:250px;
+padding-bottom:30px;
+font-size:18px;
+padding-bottom:20px;
+font-family:"kg10";
+letter-spacing:0.03em;
+line-height:3;
+color:#993300;
+}
+#table1 tr th{
+padding-bottom:60px;
+}
+.checkb{
+text-align:center;
+}
+input :focus{
+border-color:blue;
+}
+
+#confdiv{
+
+font-size:25px;
+text-align:center;
+font-family:"candies";
+letter-spacing:0.05em;
+line-height: 1.5;
+color:#47476B;
+}
+#confdiv h3{
+color:crimson;
+font-size:28px;
+}
+#confdiv p{
+width:50%;
+margin-left:365px;
+text-align:left;
+}
+.rightside{
+  
+   width:40%;
+    text-align:left;
+    margin-left:350px;
+   line-height:2;
+  
+}
+#logintable input,.press{
+   margin:15px;
+}
+.press{
+    padding:10px 20px 10px 20px;
+    border:1px solid #FFFF99;
+    border-radius:5px;
+	font-size:23px;
+    font-family:"glam";
+}
+.left{
+    text-align:right;
+}
+#userlogin{
+    margin:50px auto 0 auto;
+	padding-left:100px;
+	font-size:26px;
+	font-family:"glam";
+    width:30%;
+    color:crimson;
+    line-height: 3;
+}
+#report{
+margin-left:20px;
+}
+#tabrep,#profrep{
+margin:20px auto 70px auto;
+border:1px solid white;
+border-collapse:collapse;
+font-family:"kg10";
+font-size:18px;
+width:70%;
+color: #FFFF99;
+}
+#tabrep tr,#tabrep th,#tabrep td,#profrep tr,#profrep th,#profrep td{
+border:1px solid white;
+border-collapse:collapse;
+padding:10px 5px 10px 5px;
+}
+
+#tabrep td,#profrep td{
+text-align:left;
+padding-left:20px;
+background-color:#472400;
+}
+
+#tabrep th,#profrep th{
+background-color:#996633;
+letter-spacing:0.2em;
+}
+
+#profrep{
+width:40%;
+margin-left:400px;
+margin-bottom:10px;
+}
+
+.rephead{
+font-family:"glam";
+font-size:27px;
+color:#472400;
+padding-top:40px;
+padding-bottom:20px;
+text-align:center;
+}
+
+.logout{
+margin-left:90%;
+margin-top:0;
+}
+
+
+
+
+

@@ -1,0 +1,171 @@
+     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <!--    Rajagopal,Divya    Account:jadrn039
+            CS545, Fall 2014
+            Project #3
+    -->     
+
+<head>
+	<title>Checkout</title>
+	<meta http-equiv="content-type" 
+		content="text/html;charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="bertha_css.css" />
+	
+	
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="ajax_get_lib.js"></script>
+    <script type="text/javascript" src="ordercart.js"></script>
+	<script type="text/javascript" src="berthajs.js"></script>
+	<script type="text/javascript" src="shopping_cart.js"></script>
+	
+	
+    
+</head>
+    <body>
+        <div id="commonhead">
+         <img src="plate.png" id="logo" width="100" alt=""/>
+		  <img src="cart.jpg" id="cartimg" alt=""/><sup class="csize"></sup>
+         <h3>Bertha's Deluxe Chocolates</h3>
+         <div class="clear">&nbsp;</div>
+     </div>
+        <div>
+        <ul id="commonlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+             <li><a href="products.html">Products</a></li>
+            <li class="decor" ><a href="order.html">Order Online</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+	<div id="vmsg"></div>
+	<form method="post" action="confirm.html"> 
+	
+	<div id="cdetails"> 
+   
+    <table id="table1">
+	   <tr>
+	   <th colspan="2">BILLING ADDRESS</th>
+	   </tr>
+        <tr>
+            <td class="right">First Name:</td>
+            <td><input type="text" id="fname" size="20" /></td>
+        </tr>
+		<tr>
+            <td class="right">Last Name:</td>
+            <td><input type="text" id="lname" size="20" /></td>
+        </tr>
+        <tr>
+            <td class="right">Address:</td>
+            <td><Input type="text" id="address1" size="20" /></td>
+        </tr>
+		<tr>
+            <td class="right hidden">Address Line 2:</td>
+            <td><Input type="text" id="address2" size="20" /></td>
+        </tr>
+        <tr>
+            <td class="right">City:</td>
+            <td><Input type="text" id="city" size="20" /></td>
+        </tr>
+        <tr>
+            <td class="right">State:</td>
+            <td><Input type="text" id="state" size="2" /></td>
+        </tr>
+        <tr>
+            <td class="right">Zip:</td>
+            <td><Input type="text" id="zip" size="9" /></td>            
+        </tr>  
+        <tr>
+            <td class="right">Phone:</td>
+            <td><Input type="text" id="area" size="3" />&nbsp;<Input type="text" id="pre" size="3" />&nbsp;<Input type="text" id="post" size="4" /></td>            
+        </tr>		
+    </table> 
+	</div>
+	<div id="sdetails"> 
+   
+    <table id="table2">
+	   <tr>
+	   <th colspan="2">SHIPPING ADDRESS</th>
+	   </tr>
+	   <tr>
+	    <td colspan="3" class="checkb"><input type="checkbox" name="same" value="samecheck">Same as billing address</td>
+	   </tr>
+        <tr>
+            <td class="right">First Name:</td>
+            <td><input type="text" id="sfname" size="20" /></td>
+        </tr>
+		<tr>
+            <td class="right">Last Name:</td>
+            <td><input type="text" id="slname" size="20" /></td>
+        </tr>
+        <tr>
+            <td class="right">Address:</td>
+            <td><Input type="text" id="saddress1" size="20" /></td>
+        </tr>
+		<tr>
+            <td class="right hidden">Address Line 2:</td>
+            <td><Input type="text" id="saddress2" size="20" /></td>
+        </tr>
+        <tr>
+            <td class="right">City:</td>
+            <td><Input type="text" id="scity" size="20" /></td>
+        </tr>
+        <tr>
+            <td class="right">State:</td>
+            <td><Input type="text" id="sstate" size="2" maxlength="2" /></td>
+        </tr>
+        <tr>
+            <td class="right">Zip:</td>
+            <td><Input type="text" id="szip" size="5" maxlength="5" /></td>            
+        </tr>  
+        <tr>
+            <td class="right">Phone:</td>
+            <td><Input type="text" id="sarea" size="3" maxlength="3" />&nbsp;
+			<Input type="text" id="spre" size="3" maxlength="3" />&nbsp;
+			<Input type="text" id="spost" size="4" maxlength="4" /></td>            
+        </tr>		
+    </table> 
+	</div>
+	 <div class="clear">&nbsp;</div>
+	 <div id="carddetails">
+	 <table id="table3">
+	 <tr>
+	   <th colspan="2">PAYMENT INFORMATION</th>
+	  </tr>
+	  <tr>
+	  <td class="right">Payment Type:</td>
+      <td>
+	  <select id="paytype">
+	       <option value="sel">Select One</option>
+          <option value="master">Master Card</option>
+          <option value="visa">Visa Card</option>
+          <option value="dis">Discover</option>
+          <option value="ae">American Express</option>
+      </select>
+	  </td>
+	  </tr>
+	  <tr>
+	  <td class="right">Card Number:</td>
+	  <td><input type="password" id="psw1" size="4" maxlength="4"/>&nbsp;
+	  <input type="password" id="psw2" size="4" maxlength="4"/>&nbsp;
+	  <input type="password" id="psw3" size="4" maxlength="4"/>&nbsp;
+	  <input type="text" id="psw4" size="4" maxlength="4"/>&nbsp;
+	  </td>
+	  </tr>
+	  <tr>
+	  <td class="right">Expiration Date:</td>
+	  <td>
+	   <input type="text" id="mm" size="2" maxlength="2" value="MM">&nbsp;
+	  <input type="text" id="yy" size="4" maxlength="4" value="YYYY">&nbsp;
+	  </td>
+	  </tr>
+	 </table>
+	 <a href="order.html"><button id="bk">Back to Cart</button></a>
+	 <input type="submit" id="ord" value="Place order"/>
+	 </div>
+	</form>
+	</body>
+	</head>
+  
