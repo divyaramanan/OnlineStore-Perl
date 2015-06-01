@@ -1,5 +1,5 @@
 // Ajax client helper library, uses GET protocol
-// Code by Alan Riggins, 
+
 
 function HttpRequest(sURL, fpCallback) {
     this.request = this.createXmlHttpRequest();
